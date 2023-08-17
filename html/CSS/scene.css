@@ -1,0 +1,33 @@
+
+html {
+	height: 100%;
+	max-height: 600px;
+	width: 1000px;
+	background-color: hsla(200,40%,30%,.4);
+	background-image:
+    url('https://i.pinimg.com/originals/a4/1c/db/a41cdba3f1a4fb1ad53b7d2187676c28.png'),
+    url('https://tse3.mm.bing.net/th?id=OIP.4um08Zy2K8HOZQcn1e1VTQHaDZ&pid=ImgDet&rs=1');
+    
+        
+	background-repeat: repeat-x;
+	background-position: 0 60%,
+    0 60%;
+    
+	background-size:
+    12000px,
+    8000px;
+	animation: 5s animate infinite linear;
+	}
+
+@keyframes animate {
+    0%{
+        background-position: 
+        10000px 60%,
+        8000px 60%;
+    }
+	100% {
+		background-position: 
+        11000px 60%,
+        2000px 60%;
+		}
+	}

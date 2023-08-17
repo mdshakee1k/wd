@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner{
+            width: 500px;
+            height: 350px;
+            background-color: black;
+            transition: .5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner" id="banner"></div>
+    <script>
+        const d = document.getElementById("banner");
+        function mouseOver()
+        {
+            banner.style.backgroundColor= "red";
+        }
+        function mouseOut()
+        {
+            banner.style.backgroundColor="black";
+        }
+        banner.addEventListener("mouseover",mouseOver)
+        banner.addEventListener("mouseout",mouseOut)
+    </script>
+</body>
+</html>

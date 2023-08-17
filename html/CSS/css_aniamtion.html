@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-image: url('https://img-15.stickers.cloud/packs/e090671f-c90e-4fc3-a2ac-5cc25c3383a7/webp/d6c8ff2a-d592-4b09-b7bd-4f1e73c6692f.webp');
+            background-repeat: no-repeat;
+            background-size: contain;
+            animation-name: tomJerryAnimation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes tomJerryAnimation {
+            0% {
+                background-image: url('https://img-15.stickers.cloud/packs/e090671f-c90e-4fc3-a2ac-5cc25c3383a7/webp/d6c8ff2a-d592-4b09-b7bd-4f1e73c6692f.webp');
+                transform: translateX(0);
+            }
+            25% {
+                background-image: url('https://img-15.stickers.cloud/packs/e090671f-c90e-4fc3-a2ac-5cc25c3383a7/webp/d6c8ff2a-d592-4b09-b7bd-4f1e73c6692f.webp');
+                transform: translateX(200px);
+            }
+            50% {
+                background-image: url('https://img-15.stickers.cloud/packs/e090671f-c90e-4fc3-a2ac-5cc25c3383a7/webp/ba247aa8-1ef6-4ebb-946f-b961eac6885c.webp');
+                transform: translateY(300px);
+            }
+            100% {
+                background-image: url('https://img-15.stickers.cloud/packs/e090671f-c90e-4fc3-a2ac-5cc25c3383a7/webp/ba247aa8-1ef6-4ebb-946f-b961eac6885c.webp');
+                transform: translateY(400px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

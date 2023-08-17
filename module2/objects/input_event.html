@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="text">
+    <div id="show"></div>
+    <script>
+        const input = document.getElementById("text");
+        const output = document.getElementById("show");
+        function handleInput()
+        {
+            output.textContent = "You told something like "+ input.value;
+        }
+        input.addEventListener('input',handleInput);
+        
+    </script>
+</body>
+</html>
